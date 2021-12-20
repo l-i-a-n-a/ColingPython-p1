@@ -41,6 +41,6 @@ class UnigramMorphAnalyzer:
         for i in p_data[token]:
             prob = p_data[token][i]/total
             dict[i] = prob
-        print(dict)
+        return dict
 
 
